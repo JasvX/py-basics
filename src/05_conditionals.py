@@ -1,7 +1,7 @@
-a = input()
+a = input("Ingresa el valor de a: ")
 a = int(a)
 
-b = input()
+b = input("Ingresa el valor de b: ")
 b = int(b)
 
 #para usar condicionales se utilizan if-else
@@ -15,10 +15,10 @@ else:
 # > == < !=
 
 if a == b:
-  print("iguales")
+  print("el valor de a y b son iguales")
   
 if a != b:
-  print("no son iguales")
+  print("el valor de a y b no son iguales")
   
 if a > b:
   print("a es mayor")
@@ -28,7 +28,7 @@ if a < b:
   
   
 # keyword 'and'
-
+print()
 salary = 5700
 vacation_days= 23
 
