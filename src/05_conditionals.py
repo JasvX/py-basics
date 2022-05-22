@@ -36,6 +36,19 @@ if salary > 5000 and vacation_days > 40:
     print ("I will take this job.")
 else: 
     print("This job sucks! Give it to Jerry.")
+    
+    
+# keyword 'or'
+
+money = 100
+extra_income = True
+
+if money > 1000 or extra_income:
+  print("necesito vacaciones")
+else:
+  print("necesito trabajar..")
+
+
 
 
 
