@@ -50,6 +50,19 @@ else:
 
 
 
+# elif se utiliza cuando hay que verivicar mas de
+# una condición
+
+x, y, z = 10,13, 14
+
+if x > y :
+  print(x)
+elif y >  z:
+  print(y)
+else:
+  print(z)
+
+
 
 
     
